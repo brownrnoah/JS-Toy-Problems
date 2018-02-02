@@ -1,0 +1,51 @@
+.footer_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26%;
+    width: 95%;  
+}
+
+body{
+    background-image: url("images/background.png");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: lightcyan;
+    height: 40px;
+    width: 100%;
+}
+
+nav{
+    filter: blur(13px);
+    height: 40px;
+}
+
+header ul{
+}
+header li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: navy;
+    font-weight: 500;
+    transform: translateY(-14px);
+}
+
+.search{
+    height: 40px;
+    float: right; 
+}
+
+.cart{
+    height: 40px; 
+    float: right;
+}
+
+.logo{
+   height: 40px; 
+   margin-right: 330px;
+}
